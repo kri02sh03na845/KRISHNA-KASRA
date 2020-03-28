@@ -1,0 +1,33 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CIKRISHNA.KASRA
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branchKRISHNA.KASRA
+on:
+  push:
+    branches: [ master ]KRISHNA.KASRA
+  pull_request:
+    branches: [ master ]KRISHNA.KASRA
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"KRISHNA.KASRA
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latestKRISHNA.KASRA
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2KRISHNA.KASRA
+
+    # Runs a single command using the runners shell
+    - name: Run a one-line scriptKRISHNA.KASRA
+      run: echo Hello, world!KRISHNA.KASRA
+
+    # Runs a set of commands using the runners shell
+    - name: Run a multi-line scriptKRISHNA.KASRA
+      run: |
+        echo Add other actions to build,KRISHNA.KASRA
+        echo test, and deploy your project.KRISHNA.KASRA
